@@ -1,6 +1,6 @@
 # Webserver Installer
 
-Simple Script to install Apache2 with PHP7.4 and MySQL with phpMyAdmin on your Debian based System
+Simple Script to install Apache2 with PHP7.4 and MariaDB with phpMyAdmin on your Debian based System
 
 For secure your database-server run:
 
@@ -10,7 +10,7 @@ mysql_secure_installation
 
 and follow the instructions.
 
-You have to create MySQL user manuel:
+You have to create MariaDB user manuel:
 
 ```bash
 mysql -u root

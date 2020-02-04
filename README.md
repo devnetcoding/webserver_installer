@@ -2,6 +2,12 @@
 
 Simple Script to install Apache2 with PHP7.4 and MariaDB with phpMyAdmin on your Debian based System
 
+Copy the phpMyAdmin conf in the right directory:
+
+```bash
+cp phpmyadmin.conf /etc/apache2/conf-available/phpmyadmin.conf
+```
+
 For secure your database-server run:
 
 ```bash

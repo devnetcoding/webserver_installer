@@ -44,6 +44,7 @@ a2enconf phpmyadmin
 systemctl reload apache2
 mkdir /usr/share/phpmyadmin/tmp/
 chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
+a2enmod ssl
 
 echo -e "\033[42mInstall successfull\033[0m"
 

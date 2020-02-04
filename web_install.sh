@@ -38,7 +38,6 @@ unzip phpmyadmin.zip
 rm phpmyadmin.zip
 mv phpMyAdmin-*-all-languages phpmyadmin
 chmod -R 0755 phpmyadmin
-cp phpmyadmin.conf /etc/apache2/conf-available/phpmyadmin.conf
 cd /etc/apache2/conf-available/
 a2enconf phpmyadmin
 systemctl reload apache2
